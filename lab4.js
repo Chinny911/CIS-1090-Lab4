@@ -15,6 +15,14 @@ function max(a, b){
 
 //STEP 2    Define a second function named min that returns
 //          The smaller of the two parameters
+function min(a,b) {
+    if (a > b){
+        return b;
+    } else {
+        return a;
+    }
+
+}
 
 //(YOUR WORK HERE)
 
